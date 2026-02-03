@@ -16,17 +16,17 @@ export default function Home() {
         </header>
 
         {/* Recipe List */}
-        <div className="space-y-4">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 border-l-4 border-orange-500">
-            {/* <Link href="recipes/"> */}
+        <div>
+          <Link href="/recipes/Lamek">
+            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 border-l-4 border-orange-500">
               <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-2">
-                Recipe 1
+                Lamek's Favourite Recipe
               </h2>
               <p className="text-gray-600 dark:text-gray-400">
-                Click to view recipe details
+                Chicken & Chorizo Jambalaya
               </p>
-            {/* </Link> */}
-          </div>
+            </div>
+          </Link>
 
           <div className="bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6 border-l-4 border-orange-500">
             {/* <Link href="/recipes/2"> */}
